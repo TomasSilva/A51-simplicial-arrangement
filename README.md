@@ -37,6 +37,12 @@ with all other intersection multiplicities zero, Melchior defect $0$, and charac
 
 Both scripts use exact rational arithmetic in $K=\mathbb Q[s]/(s^4-s^2-1)$, with no floating-point incidence tests. Failures return a nonzero exit status, including under `python3 -O`. Ordinary verification writes no files.
 
+## SageMath notebook
+
+Open [`a51_sagemath.ipynb`](a51_sagemath.ipynb) in Jupyter, select the **SageMath** kernel, and choose **Restart Kernel and Run All Cells**. Run it from the repository directory so it can compare the stored certificate. It requires SageMath with **PyNormaliz** and was fully executed with SageMath 10.8; saved outputs are included.
+
+The notebook independently implements every computation in the paper, with explanations, the complete point-orbit table, and a hemisphere illustration. It uses Sage's native hyperplane-arrangement methods to verify the intersection lattice, characteristic polynomial, face vector, matroid connectivity, and all 1,440 central chambers (720 projective chambers). It also checks the geometric identities, both classical catalogue identifications, and every coordinate and incidence in the JSON certificate. It does not import the Python verifiers or write files.
+
 ## Exact data
 
 [`data/certificate.json`](data/certificate.json) contains all 51 line normals, all 361 vertices and their incidences, the twelve point orbits, and the computed invariants. Reproduce it with:
