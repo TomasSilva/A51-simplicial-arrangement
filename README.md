@@ -2,6 +2,18 @@
 
 Exact verification and data for **“A sporadic simplicial arrangement of 51 lines”** by Tomás S. R. Silva, IMECC, Universidade Estadual de Campinas (UNICAMP).
 
+```
+@misc{silva2026sporadicsimplicialarrangement51,
+      title={A sporadic simplicial arrangement of $51$ lines}, 
+      author={Tomás S. R. Silva},
+      year={2026},
+      eprint={2610.28874},
+      archivePrefix={arXiv},
+      primaryClass={math.CO},
+      url={https://arxiv.org/abs/2610.28874}, 
+}
+```
+
 The construction is
 
 $$
